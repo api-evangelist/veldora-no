@@ -64,5 +64,137 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-veldora-no is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://veldora.no/
+Veldora provides a paid data API for AI agents, delivering cleaned Norwegian company information, public tenders, contract awards, addresses, laws, exchange rates, and statistics sourced from Brønnøysundregistrene, Doffin, TED, Kartverket, Lovdata, Norges Bank, SSB, and Finnish companies from PRH. Payments are made per request in USDC on Base via x402, with no account or API key required.
+
+**Areas:** Company · Data · Norway · AI · Public-Data
+
+## veldora-no on APIs.io
+
+Everything profiled for veldora-no is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/veldora-no/](https://apis.io/providers/veldora-no/)** — or go straight to one of the APIs or properties below.
+
+### APIs (9)
+
+- [veldora-no Addresses API](https://apis.io/apis/veldora-no/veldora-no-addresses-api/) — The Addresses API from veldora-no — 2 operation(s) for addresses.
+- [veldora-no Alerts API](https://apis.io/apis/veldora-no/veldora-no-alerts-api/) — The Alerts API from veldora-no — 2 operation(s) for alerts.
+- [veldora-no Companies API](https://apis.io/apis/veldora-no/veldora-no-companies-api/) — The Companies API from veldora-no — 5 operation(s) for companies.
+- [veldora-no Exchange Rates API](https://apis.io/apis/veldora-no/veldora-no-exchange-rates-api/) — The Exchange Rates API from veldora-no — 1 operation(s) for exchange rates.
+- [veldora-no Fi API](https://apis.io/apis/veldora-no/veldora-no-fi-api/) — The Fi API from veldora-no — 2 operation(s) for fi.
+- [veldora-no Health API](https://apis.io/apis/veldora-no/veldora-no-health-api/) — The Health API from veldora-no — 1 operation(s) for health.
+- [veldora-no Laws API](https://apis.io/apis/veldora-no/veldora-no-laws-api/) — The Laws API from veldora-no — 3 operation(s) for laws.
+- [veldora-no Statistics API](https://apis.io/apis/veldora-no/veldora-no-statistics-api/) — The Statistics API from veldora-no — 3 operation(s) for statistics.
+- [veldora-no Tenders API](https://apis.io/apis/veldora-no/veldora-no-tenders-api/) — The Tenders API from veldora-no — 2 operation(s) for tenders.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Veldora No Agentic Access](https://apis.io/agentic-access/veldora-no/veldora-no-agentic-access/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Veldora No Context](https://apis.io/jsonld/veldora-no/veldora-no-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [veldora-no API Rules](https://apis.io/rules/veldora-no/veldora-no-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Veldora No Authentication](https://apis.io/security/veldora-no/veldora-no-authentication/)
+- [Veldora No Domain Security](https://apis.io/security/veldora-no/veldora-no-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Veldora No Scopes](https://apis.io/scopes/veldora-no/veldora-no-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Veldora No Plans Pricing](https://apis.io/plans/veldora-no/veldora-no-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Veldora No Rate Limits](https://apis.io/rate-limits/veldora-no/veldora-no-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://veldora.no/)
+- [Documentation](https://veldora.no/docs)
+- [Getting started](https://veldora.no/docs#quickstart)
+- [API reference](https://veldora.no/openapi.json)
+- [Pricing](https://veldora.no/#pricing)
+- [Support](https://veldora.no/contact)
+- [Terms of service](https://veldora.no/personvern)
+- [Status](https://veldora.no/v1/health)
+
+## API Evangelist rating
+
+**Kin Score 54.8** — strong · rubric 0.25.0 · scored 2026-10-31
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 46.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 42.6 |
+| Developer ergonomics | 75.5 |
+| Access clarity | 21.1 |
+
+**Agent readiness 40.4** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 28.2** — Government & Public Sector
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/veldora-no/](https://apis.io/providers/veldora-no/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for veldora-no: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/veldora-no/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
